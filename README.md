@@ -2,11 +2,7 @@
   
 Data and plots of variation of various parameters (SFM, DP, Prediction, PWM duty cycle) for different venturis and nasal cannulas are stored in this repository. Each folder in this repo. is named after the code of the venturi used. Inside each such folder will be multiple folders which are named after the cannula which has been used and will contain raw data collected during the operation of the circuit (named data.txt). The circuit is as follows:  <br/>
   
-blower->venturi->connector->SFM4200->output
-  ^  
-  |  
-Mega<->Laptop  
-  
+Laptop<->Mega->blower->venturi->connector->SFM4200->output  
 <br/>
   
 ## List of venturis used  
